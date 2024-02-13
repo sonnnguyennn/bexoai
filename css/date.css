@@ -6,6 +6,7 @@ body {
   color: #ff9494;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
 }
 h1 {
   font-size: 40px;
@@ -57,4 +58,10 @@ input[type="date"] {
   color: #e67373;
   border-radius: 12px;
   border: 2px solid #ffe3e1;
+}
+body img{
+  width: 20vw;
+  aspect-ratio: 1;
+  margin: auto;
+  margin-top: 20px;
 }
